@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+--Dark--Raspberry: hsl(332, 51%, 32%);
+--White: hsl(0, 0%, 100%);
+--Rose--White: hsl(330, 100%, 98%);
+--Eggshell: hsl(30, 54%, 90%);
+--Light--Grey: hsl(30, 18%, 87%);
+--Wenge--Brown: hsl(30, 10%, 34%);
+--Dark--Charcoal: hsl(24, 5%, 18%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: var(--Eggshell);
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;
+}
+
+p {
+    font-size: 12px;
+}
+
+.container {
+    background-color: var(--White);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.03);
+}
+
+.container img {
+    border-radius: 0.625rem;
+    margin: 0.625rem;
+    display: block;
+    margin-inline: auto;
+}
+
+.container h1 {
+    font-size: 22px;
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.container p {
+    font-family: "Outfit", sans-serif;
+    color: var(--Wenge--Brown);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.preptime {
+    background-color: var(--Rose--White);
+    font-family: "Outfit", sans-serif;
+    border-radius: 0.625rem;
+    padding: 16px;
+    margin-bottom: 1rem;
+
+}
+.preptime h2 {
+    color: var(--Dark--Raspberry);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.preptime ul {
+    list-style-position: inside;
+    list-style: disc;
+    color: var(--Dark--Raspberry);
+    font-size: 12px;
+    margin-left: 16px;
+    text-indent: 16px;
+}
+
+.preptime ul li {
+    margin-bottom: 6px;
+}
+
+.preptime ul span {
+    color: var(--Wenge--Brown);
+}
+
+.ingredients {
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid  var(--Light--Grey);
+}
+
+.ingredients h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: var(--Nutmeg);
+    margin-bottom: 10px;
+}
+
+.ingredients ul {
+    list-style-position: inside;
+    list-style: disc;
+    color: var(--Dark--Raspberry);
+    font-size: 12px;
+    margin-left: 12px;
+    text-indent: 16px;
+}
+
+.ingredients ul li {
+    margin-bottom: 6px;
+}
+
+.ingredients span {
+    color: var(--Wenge--Brown);
+}
+
+.instructions h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: var(--Nutmeg);
+    margin-bottom: 10px;
+}
+
+.instructions {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    padding-bottom: 1.3rem;
+    border-bottom: 1px solid  var(--Light--Grey);
+}
+
+.instructions ol {
+    font-family: "Outfit", sans-serif;
+    margin-left: 1.3rem;
+    font-weight: 400;
+    color: var(--Nutmeg);
+    font-size: 12px;
+}
+
+.instructions ol li {
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.instructions span {
+    color: var(--Wenge--Brown);
+}
+
+.nutrition {
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.nutrition p {
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    color: var(--Wenge--Brown);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.nutrition h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: var(--Nutmeg);
+    margin-bottom: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+table th{
+    font-size: 14px;
+    text-align: left;
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 1px solid  var(--Light--Grey);
+}
+
+th:nth-child(1) {
+    font-weight: 400;
+    color: var(--Wenge--Brown);
+}
+
+th:nth-child(2) {
+    font-weight: 700;
+    color: var(--Nutmeg);
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+@media (min-width: 375px) {
+    .container {
+        width: 550px;
+    }
+}
