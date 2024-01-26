@@ -91,7 +91,7 @@ p {
 }
 
 .preptime ul li {
-    margin-bottom: 6px;
+    margin-bottom: 1rem;
 }
 
 .preptime ul span {
@@ -120,7 +120,7 @@ p {
 }
 
 .ingredients ul li {
-    margin-bottom: 6px;
+    margin-bottom: 1rem;
 }
 
 .ingredients span {
@@ -151,7 +151,7 @@ p {
 
 .instructions ol li {
     padding-left: 1rem;
-    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .instructions span {
